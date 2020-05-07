@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>example top</title>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;"/>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+<body>
+<h3>twitter OAUTH example</h3>
+<% console.dir(data); if (data.id == null) { %>
+<p><a href="/login">twitter login</a></p>
+<% } else { %>
+<p>id: <span>  <%= data.id %> </span></p>
+<p>username: <span>  <%= data.username %> </span></p>
+<p>displayName: <span>  <%= data.displayName %> </span></p>
+<img src=" <%= data.photo %> ">
+<p><a href="/logout">logout</a></p>
+<% } %>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "PORTNUMBER":"3333",
+  "TWITTER_CONSUMER_KEY":"your-twitterapp-consumer-key",
+  "TWITTER_CONSUMER_SECRET": "your-twitterapp-consumer-secret",
+  "APP_DOMAIN":"https://example.com",
+  "TWITTER_CALLBACK_PATH":"/_oauth/twitter" 
+}
